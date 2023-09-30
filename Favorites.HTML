@@ -1,0 +1,67 @@
+<!--
+    Dicky Chen
+    Mr. Irmina
+    9/29/23
+    Pd 9/10
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicky's Website</title>
+    <link rel="stylesheet" href = "style.css" type = "text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <header> 
+            My Interests!
+        </header>      
+    </div>
+
+    <div class = "flexContainer"> 
+        <div class = "audio">
+            <p>
+                <h3 id = "head3">My Favorite Song: </h3>
+                <iframe src="https://open.spotify.com/embed/track/0o9zmvc5f3EFApU52PPIyW" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id="song" class="song"></iframe>
+                <form onsubmit = "changeSong();return false;"> 
+                    <div class = "desc">Type a link to a spotify song in the textbox below to play your favorite song</div>
+                    <div class = "input">
+                        <label for = "song_link">Link: </label>
+                        <input type = "text" id = "link" name = "song_link" />
+                        <input type = "submit"></input>
+                    </div>
+                </form>
+            </p>
+        </div>
+
+
+
+        <div class = "flex-child links"> 
+            <ul class = "list">
+                <li> <a href = "Index.html"> Homepage </a></li>
+                <li> <a href = "Favorites.html" class = "active" id = "favorite"> Favorites </a></li>
+                <li> <a href = "Skills.html"> How To </a></li>
+                <li> <a href = "Spots.html"> NYC </a></li>
+            </ul>
+        </div>
+       
+    </div>
+    <div class = "interest">
+        <div class = "second">
+            I like terrariums, custom keyboards, and cooking.
+        </div>
+        <img src = "keyboard.png"/>
+        <figcaption>The Keyboard I built</figcaption>
+    </div>
+    
+
+
+</body>
+</html>

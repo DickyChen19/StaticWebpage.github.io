@@ -1,0 +1,145 @@
+header {
+    font-size: 400%;
+    background-color: rgb(102, 198, 230);
+    text-align: center;
+    margin-top: 1%;
+    font-family: Pacifico;
+    border: 2px solid black;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flex-child:first-child{
+    border: 2px solid black;
+    flex: 4;
+    background-color: lightblue;
+    height: 80vh;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.audio {
+    display: flex;
+    border: 2px solid black;
+    flex: 4;
+    background-color: lightblue;
+}
+
+.song{
+    margin: 20px;
+    margin-left: 50px;
+}
+img {
+    margin-left: 22.5vh;
+}
+.video {
+    display:flex;
+}
+
+.table {
+    margin-top: 65px;
+    margin-left: 150px;
+    height: 50px;
+    font-size: x-large;
+}
+
+
+.flex-child:last-child{
+    flex: 1;
+    margin-top: 5px;
+}
+
+li{
+    border: 2px solid black;
+    text-align:center;
+    background-color: lightblue;
+    margin-right: 10%;
+    height: 5vh;
+    margin-bottom: 20%;
+    font-size: 200%;
+    margin-left: -20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+.list {
+    list-style: none;
+}
+
+p {
+    font-size: xx-large;
+    text-indent: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+form {
+    background-color: grey;
+    width: 400px;
+    padding:1em;
+    border: 1px solid black;
+    height: 320px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.input {
+    margin-top: 150px;
+}
+
+.desc {
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.interest {
+    border: 2px solid black;
+    background-color: lightblue;
+    height: 30vh;
+    display: flex;
+    font-size: 300%;
+}
+
+.second{
+    padding: 20px;  
+    text-align: center;
+}
+
+.how_to {
+    display:flex;
+    background-color: lightblue;
+
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.Para {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.pic1 {
+    width: 600px;
+    height: 250px;
+}
+
+
